@@ -1,0 +1,29 @@
+<lasso-page/>
+<!doctype html>
+<html lang="en">
+  <head id="ctl00_Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="keywords" content="淘宝代购,海外代购,华人代购,代购中国"/>
+    <meta name="description" content="Panli代购网是全球最大的中国海外华人代购网站，专为海外华人代购淘宝、拍拍、当当等中国购物网站商品，支持PayPal等多种付款方式，使用Panli代购中国商品，尽享超低国际运费折扣。"/>
+    <link rel="dns-prefetch" href="//sf.panli.com"/>
+    
+    <meta name="keywords" content="Panli,代购,中国代购,华人代购,代购演 示,填写代购单"/>
+    <meta name="description" content="Panli"/>
+    <title>marko-fastify</title>
+    <lasso-head/>
+  </head>
+  <body>
+    <app-hello name=data.name/>
+    <div>
+      ${data.ops}
+    </div>
+    You have ${data.count} new messages!
+    <ul if(data.colors && data.colors.length)>
+      <li style="color: ${color}" for(color in data.colors)>${color}</li>
+    </ul>
+    <div else>No colors!</div>
+    <lasso-body/>
+  </body>
+</html>

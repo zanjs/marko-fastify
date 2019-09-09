@@ -1,5 +1,7 @@
 # Sample App: Marko + Fastify + Lasso
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/marko-fastify.svg)](https://greenkeeper.io/)
+
 This sample app illustrates how to integrate Marko and Lasso with a very basic
 Fastify app. In addition, this sample application illustrates how to create
 custom tags that can be embedded into your templates.
